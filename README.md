@@ -1,8 +1,14 @@
-# AI Accounting Firm PMO App
+# Synergist Client Command Centre V2 — Recovery Build
 
-Static browser app for the AI Accounting Firm PMO Command Centre.
+Static Vercel-ready recovery build.
 
-Deploy on Vercel with:
-- Framework Preset: Other
-- Build Command: leave blank
-- Output Directory: leave blank or .
+## Deploy
+1. Unzip the package.
+2. Upload the folder to the correct GitHub repository, replacing the incorrect files.
+3. Commit the changes. Vercel should redeploy automatically.
+
+Alternatively, drag this folder into a new Vercel project.
+
+## Data
+This recovery build uses browser localStorage. Use **Backup JSON** regularly.
+It does not contain Supabase credentials or private keys.
